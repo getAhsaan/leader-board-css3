@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #F3F1FF;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: 870px;
+    background: #FFFFFF;
+    padding: 30px;
+    margin-top: 30px;
+
+}
+
+.section-title {
+    font-size: 24px;
+    color: #562EFF;
+}
+
+hr {
+    border: 1px solid #D1D1D1;
+    margin-bottom: 30px;
+
+}
+
+/* Top Players Style */
+
+.top-players {
+    margin-bottom: 30px;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+    margin-top: 40px;
+}
+
+.player {
+    display: flex;
+    align-items: center;
+}
+
+.player img {
+    width: 56px;
+    height: 56px;
+}
+
+.player-name {
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+
+/* Blog Section Styles */
+
+.blogs {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 30px;
+}
+
+.thumbnail {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.thumbnail img {
+    width: 224px;
+    height: 127px;
+}
+
+.blog-info h3 {
+    font-size: 20px;
+    line-height: 34px;
+}
+
+.blog-info p {
+    margin-top: 6px;
+}
+
+.blog-info p a {
+    text-decoration: none;
+    color: #562EFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* Course Section Styles */
+
+.courses {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 23px;
+}
+.course {
+    box-shadow: 0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05);
+    padding: 10px;
+}
+.course img {
+    width: 224px;
+    height: 104px;
+}
+.course-title {
+    font-size: 20px;
+    line-height: 23px;
+    color: #1E1E1E;
+}
+.course-author {
+    font-size: 14.6px;
+    line-height: 17px;
+    color: #ED6B4F;
+    margin-top: 7px;
+}
+.course-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rating {
+    display: flex;
+    align-items: center;
+}
+.rating .filled {
+    font-size: 12px;
+    color: #FFC014;
+}
+.rating .empty {
+    font-size: 12px;
+    color: #AEAEAE;;
+}
+.rating p {
+    margin-left: 10px;
+}
+.duration {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #FF4A60;
+    background: #FEE5DF;
+    border-radius: 15px;
+    padding: 4px 8px;
+}
